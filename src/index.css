@@ -1,18 +1,24 @@
 body {
-
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(171,7,120,1) 53%, rgba(1,2,28,1) 100%);
-
+min-width: 600px;
+  background: rgb(2, 0, 36);
+ 
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(171, 7, 120, 1) 53%,
+    rgba(1, 2, 28, 1) 100%
+  );
 
   background-repeat: no-repeat;
-  background-size: contain;
-background-size: cover;
+
+  /* background-size: cover; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 80px;
+margin-top: 30px;
+margin-bottom: 120px;
   height: auto;
   width: auto;
 }
@@ -34,8 +40,9 @@ ul {
 }
 
 .square {
-  background:  rgb(160, 87, 137);
-  border: 5px solid  rgb(64, 2, 44);
+
+  background: rgb(160, 87, 137);
+  border: 5px solid rgb(64, 2, 44);
   float: left;
   font-size: 54px;
   font-weight: bold;
@@ -52,15 +59,9 @@ ul {
   top: calc(50% - 150px);
   left: calc(50% - 150px);
   border-radius: 50%;
-  box-shadow:
-      inset 0 0 50px #fff,
-      inset 20px 0 80px #f0f,
-      inset -20px 0 80px #0ff,
-      inset 20px 0 300px #f0f,
-      inset -20px 0 300px #0ff,
-      0 0 50px #fff,
-      -10px 0 80px #f0f,
-      10px 0 80px #0ff;
+  box-shadow: inset 0 0 50px #fff, inset 20px 0 80px #f0f,
+    inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff,
+    0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
 }
 /* 
 top: calc(50% - 150px);
@@ -101,9 +102,9 @@ button {
 
 .game-info {
   margin-left: 20px;
- 
 }
 
 #root {
   height: 400px;
+
 }
