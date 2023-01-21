@@ -1,16 +1,15 @@
 body {
-
+max-width: 1920px;
   background: rgb(2, 0, 36);
- 
   background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(171, 7, 120, 1) 53%,
     rgba(1, 2, 28, 1) 100%
   );
-
-  background-repeat: no-repeat;
-
+  /* background-attachment: fixed;
+  background-position: center; */
+  /* background-repeat: no-repeat; */
   /* background-size: cover; */
   display: flex;
   flex-direction: column;
@@ -95,8 +94,8 @@ button {
 }
 
 .game {
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
   font-weight: bold;
 }
 
